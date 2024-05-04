@@ -16,7 +16,7 @@ This Streamlit application allows users to upload PDF files and ask questions ba
 
 1. Clone the repository or download the source code.
 2. Install the required Python packages by running the following command:<br>
-   ```pip install streamlit PyPDF2 langchain langchain-google-genai google-generativeai python-dotenv```
+   ```pip install -r requirements.txt```
 3. Create a `.env` file in the project directory and add your Google API Key:<br>
    ```GOOGLE_API_KEY=your_google_api_key```
 ## Usage
