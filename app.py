@@ -42,7 +42,9 @@ def get_conversational_chain():
     Answer the question as detailed as possible from the provided context, make sure to provide all the details, 
     if the question is creative but can be deciphered from the given context then create the answer and provide
     it to the user, if the answer is not in provided context just say, "answer is not available in the context", 
-    don't provide the wrong answer no matter what.\n\n
+    don't provide the wrong answer no matter what. If you can generate the answer from the context like evaluating
+    something based on the context or generating a part of the context to further extend it or modifying it to make
+    it better then you can answer these types of questions\n\n
     Context:\n {context}?\n
     Question: \n{question}\n
 
